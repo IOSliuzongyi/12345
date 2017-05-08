@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeCollectionVC.h
 //  takadaApp
 //
 //  Created by  on 08/05/2017.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface HomeCollectionVC : UICollectionViewController
 
 @end
-
