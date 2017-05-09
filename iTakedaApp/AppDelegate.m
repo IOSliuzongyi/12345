@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  iTakedaApp
+//  takedaApp
 //
 //  Created by user001 on 2017/5/8.
-//  Copyright © 2017年 stt. All rights reserved.
+//  Copyright © 2017年 user001. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -16,10 +16,47 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    [self customizeInterface];
     
+    
+
+    return YES;
 }
+
+#pragma mark -
+#pragma mark 全局外观设置
+#pragma mark
+- (void)customizeInterface
+{
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    //导航栏
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    NSDictionary *textAttributes = @{
+                                     NSForegroundColorAttributeName:[UIColor whiteColor],
+                                     NSFontAttributeName:[UIFont boldSystemFontOfSize:18]
+                                     };
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
+    [navigationBarAppearance setBarTintColor:[AppColor naviBarBarTintColor]];
+    [navigationBarAppearance setTintColor:[UIColor whiteColor]];
+    [navigationBarAppearance setBackgroundColor:[AppColor naviBarBarTintColor]];
+    navigationBarAppearance.translucent = NO;
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, 0)
+                                                         forBarMetrics:UIBarMetricsDefault];
+
+//    //tab栏
+//    UITabBar *tabBar =[UITabBar appearance];
+//    [tabBar setTintColor:[AppColor cherryColor]];
+//
+//    [[UITabBarItem appearance] setTitleTextAttributes: @{
+//                                                         NSForegroundColorAttributeName:[UIColor darkGrayColor]
+//                                                         }
+//                                             forState: UIControlStateNormal];
+//    [[UITabBarItem appearance] setTitleTextAttributes: @{
+//                                                         NSForegroundColorAttributeName:[AppColor cherryColor]
+//                                                         }
+//                                             forState: UIControlStateSelected];
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

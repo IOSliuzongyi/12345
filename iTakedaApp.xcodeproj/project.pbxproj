@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		9D7BECEC1EC08834005DB4C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BECEB1EC08834005DB4C6 /* main.m */; };
-		9D7BECEF1EC08834005DB4C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BECEE1EC08834005DB4C6 /* AppDelegate.m */; };
-		9D7BECF21EC08834005DB4C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BECF11EC08834005DB4C6 /* ViewController.m */; };
 		9D7BECF51EC08834005DB4C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BECF31EC08834005DB4C6 /* Main.storyboard */; };
 		9D7BECF71EC08834005DB4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BECF61EC08834005DB4C6 /* Assets.xcassets */; };
 		9D7BECFA1EC08834005DB4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BECF81EC08834005DB4C6 /* LaunchScreen.storyboard */; };
 		9D7BED051EC08834005DB4C6 /* iTakedaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BED041EC08834005DB4C6 /* iTakedaAppTests.m */; };
 		9D7BED101EC08834005DB4C6 /* iTakedaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BED0F1EC08834005DB4C6 /* iTakedaAppUITests.m */; };
+		9D7BEF041EC0BCE7005DB4C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF031EC0BCE7005DB4C6 /* AppDelegate.m */; };
+		9D7BEF1C1EC0BD2D005DB4C6 /* NSObject+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF091EC0BD2D005DB4C6 /* NSObject+Storyboard.m */; };
+		9D7BEF1D1EC0BD2D005DB4C6 /* UIColor+CUAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF0B1EC0BD2D005DB4C6 /* UIColor+CUAddition.m */; };
+		9D7BEF1E1EC0BD2D005DB4C6 /* UIScreen+CUAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF0D1EC0BD2D005DB4C6 /* UIScreen+CUAddition.m */; };
+		9D7BEF1F1EC0BD2D005DB4C6 /* AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF101EC0BD2D005DB4C6 /* AppColor.m */; };
+		9D7BEF201EC0BD2D005DB4C6 /* pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BEF131EC0BD2D005DB4C6 /* pic@2x.png */; };
+		9D7BEF211EC0BD2D005DB4C6 /* pic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BEF141EC0BD2D005DB4C6 /* pic@3x.png */; };
+		9D7BEF221EC0BD2D005DB4C6 /* MainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF181EC0BD2D005DB4C6 /* MainCollectionCell.m */; };
+		9D7BEF231EC0BD2D005DB4C6 /* MainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BEF191EC0BD2D005DB4C6 /* MainCollectionCell.xib */; };
+		9D7BEF241EC0BD2D005DB4C6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF1B1EC0BD2D005DB4C6 /* HomeViewController.m */; };
 		E4EB499C2F9A3D40A573D39C /* libPods-iTakedaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E697DBF335E98685E96772 /* libPods-iTakedaApp.a */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +48,6 @@
 		4C5D92ED3A1CCBB8D3949B96 /* Pods-iTakedaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTakedaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTakedaApp/Pods-iTakedaApp.release.xcconfig"; sourceTree = "<group>"; };
 		9D7BECE71EC08834005DB4C6 /* iTakedaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTakedaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7BECEB1EC08834005DB4C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D7BECED1EC08834005DB4C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9D7BECEE1EC08834005DB4C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D7BECF01EC08834005DB4C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9D7BECF11EC08834005DB4C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D7BECF41EC08834005DB4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D7BECF61EC08834005DB4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7BECF91EC08834005DB4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,25 @@
 		9D7BED0B1EC08834005DB4C6 /* iTakedaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTakedaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7BED0F1EC08834005DB4C6 /* iTakedaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTakedaAppUITests.m; sourceTree = "<group>"; };
 		9D7BED111EC08834005DB4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7BEF021EC0BCE7005DB4C6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D7BEF031EC0BCE7005DB4C6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D7BEF051EC0BCF6005DB4C6 /* app-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-Prefix.pch"; sourceTree = "<group>"; };
+		9D7BEF071EC0BD2D005DB4C6 /* CategoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryKit.h; sourceTree = "<group>"; };
+		9D7BEF081EC0BD2D005DB4C6 /* NSObject+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Storyboard.h"; sourceTree = "<group>"; };
+		9D7BEF091EC0BD2D005DB4C6 /* NSObject+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Storyboard.m"; sourceTree = "<group>"; };
+		9D7BEF0A1EC0BD2D005DB4C6 /* UIColor+CUAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CUAddition.h"; sourceTree = "<group>"; };
+		9D7BEF0B1EC0BD2D005DB4C6 /* UIColor+CUAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CUAddition.m"; sourceTree = "<group>"; };
+		9D7BEF0C1EC0BD2D005DB4C6 /* UIScreen+CUAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CUAddition.h"; sourceTree = "<group>"; };
+		9D7BEF0D1EC0BD2D005DB4C6 /* UIScreen+CUAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CUAddition.m"; sourceTree = "<group>"; };
+		9D7BEF0F1EC0BD2D005DB4C6 /* AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppColor.h; sourceTree = "<group>"; };
+		9D7BEF101EC0BD2D005DB4C6 /* AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppColor.m; sourceTree = "<group>"; };
+		9D7BEF131EC0BD2D005DB4C6 /* pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic@2x.png"; sourceTree = "<group>"; };
+		9D7BEF141EC0BD2D005DB4C6 /* pic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic@3x.png"; sourceTree = "<group>"; };
+		9D7BEF171EC0BD2D005DB4C6 /* MainCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionCell.h; sourceTree = "<group>"; };
+		9D7BEF181EC0BD2D005DB4C6 /* MainCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionCell.m; sourceTree = "<group>"; };
+		9D7BEF191EC0BD2D005DB4C6 /* MainCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionCell.xib; sourceTree = "<group>"; };
+		9D7BEF1A1EC0BD2D005DB4C6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9D7BEF1B1EC0BD2D005DB4C6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		EAC201111A62CE6B4D8A43A0 /* Pods-iTakedaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTakedaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTakedaApp/Pods-iTakedaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,10 +141,12 @@
 		9D7BECE91EC08834005DB4C6 /* iTakedaApp */ = {
 			isa = PBXGroup;
 			children = (
-				9D7BECED1EC08834005DB4C6 /* AppDelegate.h */,
-				9D7BECEE1EC08834005DB4C6 /* AppDelegate.m */,
-				9D7BECF01EC08834005DB4C6 /* ViewController.h */,
-				9D7BECF11EC08834005DB4C6 /* ViewController.m */,
+				9D7BEF061EC0BD2D005DB4C6 /* Categories */,
+				9D7BEF0E1EC0BD2D005DB4C6 /* General */,
+				9D7BEF111EC0BD2D005DB4C6 /* Resources */,
+				9D7BEF151EC0BD2D005DB4C6 /* UI */,
+				9D7BEF021EC0BCE7005DB4C6 /* AppDelegate.h */,
+				9D7BEF031EC0BCE7005DB4C6 /* AppDelegate.m */,
 				9D7BECF31EC08834005DB4C6 /* Main.storyboard */,
 				9D7BECF61EC08834005DB4C6 /* Assets.xcassets */,
 				9D7BECF81EC08834005DB4C6 /* LaunchScreen.storyboard */,
@@ -134,6 +159,7 @@
 		9D7BECEA1EC08834005DB4C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D7BEF051EC0BCF6005DB4C6 /* app-Prefix.pch */,
 				9D7BECEB1EC08834005DB4C6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -162,6 +188,66 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D7BEF061EC0BD2D005DB4C6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BEF071EC0BD2D005DB4C6 /* CategoryKit.h */,
+				9D7BEF081EC0BD2D005DB4C6 /* NSObject+Storyboard.h */,
+				9D7BEF091EC0BD2D005DB4C6 /* NSObject+Storyboard.m */,
+				9D7BEF0A1EC0BD2D005DB4C6 /* UIColor+CUAddition.h */,
+				9D7BEF0B1EC0BD2D005DB4C6 /* UIColor+CUAddition.m */,
+				9D7BEF0C1EC0BD2D005DB4C6 /* UIScreen+CUAddition.h */,
+				9D7BEF0D1EC0BD2D005DB4C6 /* UIScreen+CUAddition.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9D7BEF0E1EC0BD2D005DB4C6 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BEF0F1EC0BD2D005DB4C6 /* AppColor.h */,
+				9D7BEF101EC0BD2D005DB4C6 /* AppColor.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9D7BEF111EC0BD2D005DB4C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BEF121EC0BD2D005DB4C6 /* HomePage */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D7BEF121EC0BD2D005DB4C6 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BEF131EC0BD2D005DB4C6 /* pic@2x.png */,
+				9D7BEF141EC0BD2D005DB4C6 /* pic@3x.png */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		9D7BEF151EC0BD2D005DB4C6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BEF1A1EC0BD2D005DB4C6 /* HomeViewController.h */,
+				9D7BEF1B1EC0BD2D005DB4C6 /* HomeViewController.m */,
+				9D7BEF161EC0BD2D005DB4C6 /* cell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9D7BEF161EC0BD2D005DB4C6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BEF171EC0BD2D005DB4C6 /* MainCollectionCell.h */,
+				9D7BEF181EC0BD2D005DB4C6 /* MainCollectionCell.m */,
+				9D7BEF191EC0BD2D005DB4C6 /* MainCollectionCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		E64B4DBEC21F69BD08ED4A4C /* Frameworks */ = {
@@ -281,9 +367,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7BEF231EC0BD2D005DB4C6 /* MainCollectionCell.xib in Resources */,
+				9D7BEF211EC0BD2D005DB4C6 /* pic@3x.png in Resources */,
 				9D7BECFA1EC08834005DB4C6 /* LaunchScreen.storyboard in Resources */,
 				9D7BECF71EC08834005DB4C6 /* Assets.xcassets in Resources */,
 				9D7BECF51EC08834005DB4C6 /* Main.storyboard in Resources */,
+				9D7BEF201EC0BD2D005DB4C6 /* pic@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +445,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7BECF21EC08834005DB4C6 /* ViewController.m in Sources */,
-				9D7BECEF1EC08834005DB4C6 /* AppDelegate.m in Sources */,
+				9D7BEF1C1EC0BD2D005DB4C6 /* NSObject+Storyboard.m in Sources */,
+				9D7BEF221EC0BD2D005DB4C6 /* MainCollectionCell.m in Sources */,
+				9D7BEF041EC0BCE7005DB4C6 /* AppDelegate.m in Sources */,
+				9D7BEF241EC0BD2D005DB4C6 /* HomeViewController.m in Sources */,
+				9D7BEF1E1EC0BD2D005DB4C6 /* UIScreen+CUAddition.m in Sources */,
+				9D7BEF1F1EC0BD2D005DB4C6 /* AppColor.m in Sources */,
 				9D7BECEC1EC08834005DB4C6 /* main.m in Sources */,
+				9D7BEF1D1EC0BD2D005DB4C6 /* UIColor+CUAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +604,8 @@
 			baseConfigurationReference = EAC201111A62CE6B4D8A43A0 /* Pods-iTakedaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iTakedaApp/app-Prefix.pch";
 				INFOPLIST_FILE = iTakedaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iTakedaApp;
@@ -522,6 +618,8 @@
 			baseConfigurationReference = 4C5D92ED3A1CCBB8D3949B96 /* Pods-iTakedaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iTakedaApp/app-Prefix.pch";
 				INFOPLIST_FILE = iTakedaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iTakedaApp;
