@@ -22,7 +22,7 @@
 		9D7BEF211EC0BD2D005DB4C6 /* pic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BEF141EC0BD2D005DB4C6 /* pic@3x.png */; };
 		9D7BEF221EC0BD2D005DB4C6 /* MainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF181EC0BD2D005DB4C6 /* MainCollectionCell.m */; };
 		9D7BEF231EC0BD2D005DB4C6 /* MainCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BEF191EC0BD2D005DB4C6 /* MainCollectionCell.xib */; };
-		9D7BEF241EC0BD2D005DB4C6 /* HomeCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF1B1EC0BD2D005DB4C6 /* HomeCollectionVC.m */; };
+		9D7BEF241EC0BD2D005DB4C6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BEF1B1EC0BD2D005DB4C6 /* HomeViewController.m */; };
 		E4EB499C2F9A3D40A573D39C /* libPods-iTakedaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E697DBF335E98685E96772 /* libPods-iTakedaApp.a */; };
 /* End PBXBuildFile section */
 
@@ -75,8 +75,8 @@
 		9D7BEF171EC0BD2D005DB4C6 /* MainCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionCell.h; sourceTree = "<group>"; };
 		9D7BEF181EC0BD2D005DB4C6 /* MainCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionCell.m; sourceTree = "<group>"; };
 		9D7BEF191EC0BD2D005DB4C6 /* MainCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionCell.xib; sourceTree = "<group>"; };
-		9D7BEF1A1EC0BD2D005DB4C6 /* HomeCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionVC.h; sourceTree = "<group>"; };
-		9D7BEF1B1EC0BD2D005DB4C6 /* HomeCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionVC.m; sourceTree = "<group>"; };
+		9D7BEF1A1EC0BD2D005DB4C6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9D7BEF1B1EC0BD2D005DB4C6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		EAC201111A62CE6B4D8A43A0 /* Pods-iTakedaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTakedaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTakedaApp/Pods-iTakedaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,9 +233,9 @@
 		9D7BEF151EC0BD2D005DB4C6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9D7BEF1A1EC0BD2D005DB4C6 /* HomeViewController.h */,
+				9D7BEF1B1EC0BD2D005DB4C6 /* HomeViewController.m */,
 				9D7BEF161EC0BD2D005DB4C6 /* cell */,
-				9D7BEF1A1EC0BD2D005DB4C6 /* HomeCollectionVC.h */,
-				9D7BEF1B1EC0BD2D005DB4C6 /* HomeCollectionVC.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -448,7 +448,7 @@
 				9D7BEF1C1EC0BD2D005DB4C6 /* NSObject+Storyboard.m in Sources */,
 				9D7BEF221EC0BD2D005DB4C6 /* MainCollectionCell.m in Sources */,
 				9D7BEF041EC0BCE7005DB4C6 /* AppDelegate.m in Sources */,
-				9D7BEF241EC0BD2D005DB4C6 /* HomeCollectionVC.m in Sources */,
+				9D7BEF241EC0BD2D005DB4C6 /* HomeViewController.m in Sources */,
 				9D7BEF1E1EC0BD2D005DB4C6 /* UIScreen+CUAddition.m in Sources */,
 				9D7BEF1F1EC0BD2D005DB4C6 /* AppColor.m in Sources */,
 				9D7BECEC1EC08834005DB4C6 /* main.m in Sources */,

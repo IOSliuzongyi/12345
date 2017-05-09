@@ -1,9 +1,9 @@
 //
 //  UIColor+CUAddition.h
-//  UIKit+CUAddition
+//  takedaApp
 //
-//  Created by czm on 15/11/16.
-//  Copyright © 2015年 czm. All rights reserved.
+//  Created by user001 on 2017/5/8.
+//  Copyright © 2017年 user001. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,9 +1,9 @@
 //
 //  AppColor.m
+//  takedaApp
 //
-//
-//  Created by czm on 13-12-04.
-//  Copyright (c) 2013年 czm. All rights reserved.
+//  Created by user001 on 2017/5/8.
+//  Copyright © 2017年 user001. All rights reserved.
 //
 
 #import "AppColor.h"

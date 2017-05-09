@@ -1,10 +1,10 @@
 //
 //  common.h
+//  takedaApp
 //
-//
-//  Created by czm on 13-11-10.
-//  Copyright (c) 2013年 czm. All rights reserved.
-//
+//  Created by user001 on 2017/5/8.
+//  Copyright © 2017年 user001. All rights reserved.
+///
 
 #ifndef __CategoryKit_h__
 #define __CategoryKit_h__

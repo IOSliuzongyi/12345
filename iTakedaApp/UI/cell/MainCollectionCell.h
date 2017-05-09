@@ -1,11 +1,10 @@
 //
 //  MainCollectionCell.h
-//  takadaApp
+//  takedaApp
 //
-//  Created by  on 08/05/2017.
-//  Copyright © 2017 lzy. All rights reserved.
+//  Created by user001 on 2017/5/8.
+//  Copyright © 2017年 user001. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
 @interface MainCollectionCell : UICollectionViewCell

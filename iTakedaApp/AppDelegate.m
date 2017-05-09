@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  takadaApp
+//  takedaApp
 //
-//  Created by  on 08/05/2017.
-//  Copyright © 2017 lzy. All rights reserved.
+//  Created by user001 on 2017/5/8.
+//  Copyright © 2017年 user001. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self customizeInterface];
+    
+    
+
     return YES;
 }
 
@@ -37,21 +40,21 @@
     [navigationBarAppearance setTintColor:[UIColor whiteColor]];
     [navigationBarAppearance setBackgroundColor:[AppColor naviBarBarTintColor]];
     navigationBarAppearance.translucent = NO;
-    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -64)
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, 0)
                                                          forBarMetrics:UIBarMetricsDefault];
 
-    //tab栏
-    UITabBar *tabBar =[UITabBar appearance];
-    [tabBar setTintColor:[AppColor cherryColor]];
-
-    [[UITabBarItem appearance] setTitleTextAttributes: @{
-                                                         NSForegroundColorAttributeName:[UIColor darkGrayColor]
-                                                         }
-                                             forState: UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes: @{
-                                                         NSForegroundColorAttributeName:[AppColor cherryColor]
-                                                         }
-                                             forState: UIControlStateSelected];
+//    //tab栏
+//    UITabBar *tabBar =[UITabBar appearance];
+//    [tabBar setTintColor:[AppColor cherryColor]];
+//
+//    [[UITabBarItem appearance] setTitleTextAttributes: @{
+//                                                         NSForegroundColorAttributeName:[UIColor darkGrayColor]
+//                                                         }
+//                                             forState: UIControlStateNormal];
+//    [[UITabBarItem appearance] setTitleTextAttributes: @{
+//                                                         NSForegroundColorAttributeName:[AppColor cherryColor]
+//                                                         }
+//                                             forState: UIControlStateSelected];
 }
 
 
